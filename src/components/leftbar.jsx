@@ -1,15 +1,22 @@
 import styles from './styles.module.css'
-import dashboard from '../../public/dashboard.png'
-import Logo from '../../public/logo.png'
+import dashboard from '../assets/dashboard.png'
+import Logo from '../assets/logo.png'
+import inventory from '../assets/inventory.png'
+import procurement from '../assets/procurements.png'
+import finance from '../assets/finance.png'
+import messages from '../assets/messsages.png'
+import calender from '../assets/calender.png'
+import contact from '../assets/contracts.png'
+
 export  default function LeftBar() {
     const packs = [
         ['Dashboard', dashboard],
-        ['Inventory',],
-        ['Procurement',],
-        ['Finance',],
-        ['Communication',],
-        ['Calender',],
-        ['Contacts',],
+        ['Inventory',inventory],
+        ['Procurement',procurement],
+        ['Finance',finance],
+        ['Communication',messages],
+        ['Calender', calender],
+        ['Contacts',contact],
     ]
     return (
         <div>
